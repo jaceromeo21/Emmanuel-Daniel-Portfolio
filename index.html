@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel__Daniel_Portfolio</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- media screen link  -->
+    <link rel="stylesheet" href="media-screen.css">
+
+    <!-- normalize link  -->
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- google font link  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- icon link  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<body>
+
+    <!-- NAVIGATION SECTION  -->
+    <nav id="home" class="navbar">
+        <a href="" class="nav-logo">Emmanuel Daniel</a>
+        <div class="nav-menu" id="navMenu">
+            <a id="navLink" class="nav-link" href="#about">about</a>
+            <a id="navLink1" class="nav-link" href="#experience">experience</a>
+            <a id="navLink2" class="nav-link" href="#work">work</a>
+            <a id="navLink3" class="nav-link" href="#contact">Contact</a>
+
+            <div class='bx bx-x closeIcon' id="closeIcon"></div>
+        </div>
+
+        <div class="icon-nav">
+            <a class="bx bx-moon" id="darkMode-icon"></a>
+            <a class="bx bx-menu" id="openIcon"></a>
+        </div>
+
+    </nav>
+
+    <!-- MAIN SECTION  -->
+    <main>
+
+        <header class="header">
+            <div class="header-img">
+                <img src="header-img.png" alt="">
+            </div>
+            <div class="header-content">
+                <p class="sub-p-text">Hello👋, i'm</p>
+                <h1>Emmanuel Daniel</h1>
+                <p>Fullstark Developer</p>
+                <div class="btn-container">
+                    <a class="header-content-btn" href="">Send Message</a>
+                    <a class="header-content-btn" href="">Contact Info</a>
+                </div>
+                <div class="icon-container">
+                    <a class="header-content-icon" href="https://github.com/jaceromeo21/"><i class='bx bxl-github'></i></a>
+                    <a class="header-content-icon" href=""><i class='bx bxl-facebook-circle'></i></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="about-me" >
+            <div id="about"  class="about-me-sub-content">
+                <p class="sub-p-text">get to know more</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-me-row">
+                <div class=" img-box">
+                </div>
+                <div class=" content-box">
+                    <p class="content-box-p">Hello there! i'm Emmanuel Daniel
+                        a passionate <span>Frontend/Fullstark</span> web developer and <span>UI/UX
+                        </span>ethusiast specialized in building stuning pixel-perfect interactive websites</p>
+                    <p class="content-box-p">I'm proficient in HTML, CSS, and javaScript. I have a strong understanding
+                        of css frameworks like Bootstrap and Tailwind and some JavaScript framework like jQuery Ui.
+                    </p>
+                    <p class="content-box-p">I make sure to craft a clean, responsive code that give users smooth
+                        experience</p>
+
+                    <p class="content-box-p-italic"><span>I build website that;</span></p>
+                </div>
+            </div>
+
+            <div class="website-i-build-row">
+                <div class="website-i-build-col">
+                    <img src="responsive-img.svg" alt="">
+                    <h3>Are responsive </h3>
+                    <p> Sites that work with any screen size.</p>
+                </div>
+                <div class="website-i-build-col">
+                    <img src="customizeable-img.svg" alt="">
+                    <h3>Easily customisable</h3>
+                    <p>
+                        Change anything on the site within minutes.</p>
+                </div>
+                <div class="website-i-build-col">
+                    <img src="load-fast-img.svg" alt="">
+                    <h3>Load Fast</h3>
+                    <p>Built with full focus on performance.</p>
+                </div>
+                <div class="website-i-build-col">
+                    <img src="professional-img.svg" alt="">
+                    <h3>Look Professional</h3>
+                    <p>Look Professional
+                        Nice and clean design with cohesive and unique style.</p>
+                </div>
+                <div class="website-i-build-col">
+                    <img src="bring-attention-img.svg" alt="">
+                    <h3>Bring Attention</h3>
+                    <p>Increase traffic and drive sales thanks to my writing skills.</p>
+                </div>
+                <div class="website-i-build-col">
+                    <img src="free-host-img.svg" alt="">
+                    <h3>Free host</h3>
+                    <p>On top of that, free hosting and domain name setup.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <p class="sub-p-text">Explore My</p>
+            <h2>Skills / Experience</h2>
+            <div class="experience-row">
+                <div class="experience-col">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <p class="sub-p">UI/UX Designs</p>
+                        <p>Web Design</p>
+                        <p class="sub-p">Backend Development</p>
+                        <p>Web Development</p>
+                    </div>
+
+                    <div class="tab-contents" id="experiences">
+                        <p class="sub-p">2023-current</p>
+                        <p>Cloning Wordpress Theme</p>
+                        <p class="sub-p">2023-current</p>
+                        <p>Building Portfolios from <span>DRIBBLE</span></p>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <p class="sub-p">2023-Current</p>
+                        <p>UI/UX Udemy/Codester</p>
+                        <p class="sub-p">2023-Current</p>
+                        <p>Web Dev Udemy/Codester</p>
+                    </div> <!-- -->
+
+                </div>
+                <div class="experience-col experience-box">
+
+                    <div class="experience-box-tab">
+                        <div class="experience-icon">
+                            <i class='bx bxs-badge-check'></i>
+                        </div>
+                        <div class="experience-content">
+                            <h3>HTML</h3>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-box-tab">
+                        <div class="experience-icon">
+                            <i class='bx bxs-badge-check'></i>
+                        </div>
+                        <div class="experience-content">
+                            <h3>CSS</h3>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-box-tab">
+                        <div class="experience-icon">
+                            <i class='bx bxs-badge-check'></i>
+                        </div>
+                        <div class="experience-content">
+                            <h3>JavaScript</h3>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-box-tab">
+                        <div class="experience-icon">
+                            <i class='bx bxs-badge-check'></i>
+                        </div>
+                        <div class="experience-content">
+                            <h3>jQuery Ui</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-box-tab">
+                        <div class="experience-icon">
+                            <i class='bx bxs-badge-check'></i>
+                        </div>
+                        <div class="experience-content">
+                            <h3>Bootstrap</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-box-tab">
+                        <div class="experience-icon">
+                            <i class='bx bxs-badge-check'></i>
+                        </div>
+                        <div class="experience-content">
+                            <h3>Swiper Js</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="project-section" id="work">
+            <p class="sub-p-text">Browse my recent</p>
+            <h2>Projects</h2>
+            <div class="project-row">
+                <div class="project-col">
+                    <div class="project-img img-1"></div>
+                    <h3>Nkiri-Clone</h3>
+                    <div class="btn-container">
+                        <a class="project-col-btn" href="https://github.com/jaceromeo21/my-nkiri-website">Github <i
+                                class='bx bxl-github'></i> </a>
+                        <a class="project-col-btn" href="https://my-nkiri-website.vercel.app">View Site <i
+                                class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <div class="project-img img-2"></div>
+                    <h3>Lativ-Wordpress-Clone</h3>
+                    <div class="btn-container">
+                        <a class="project-col-btn" href="https://github.com/jaceromeo21/wordpress-theme-cloning">Github
+                            <i class='bx bxl-github'></i> </a>
+                        <a class="project-col-btn" href="https://wordpress-theme-cloning-inky.vercel.app/">View Site <i
+                                class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+                <div class="project-col">
+
+                    <div class="project-img img-3"></div>
+                    <h3>Tingdog</h3>
+                    <div class="btn-container">
+                        <a class="project-col-btn" href="wordpress-theme-cloning">Github <i class='bx bxl-github'></i>
+                        </a>
+                        <a class="project-col-btn" href="">View Site <i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p class="sub-p-text">Get In Touch</p>
+            <h2>Contact</h2>
+
+            <div class="contact-sub-container">
+                <div class="contact-container">
+
+                    <div class="contact-container-col">
+
+                        <a class="big-screen-link"
+                            href="mailto:danielemmanueogbonna@gmail.com">danielemmanueogbonna@gmail.com</a>
+                        <a class="small-screen-link" href="mailto:danielemmanueogbonna@gmail.com"><i class='bx bx-envelope bx-flip-horizontal' ></i></a>
+                    </div>
+
+                    <div class="contact-container-col">
+                        <a class="big-screen-link" href="https://www.instagram.com/busky_ll_ll/">Instagram</a>
+
+                        <a class="small-screen-link" href="https://www.instagram.com/busky_ll_ll/"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="javaScript.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/bcfde3470b.js" crossorigin="anonymous"></script> -->
+
+    <script>
+        document.getElementById("openIcon").onclick = function () {
+            document.getElementById("navMenu").style.marginRight = "300px";
+        };
+
+        document.getElementById("closeIcon").onclick = function () {
+            document.getElementById("navMenu").style.marginRight = "0px";
+        };
+    </script>
+
+    <script>
+        document.getElementById("navLink").onclick = function () {
+            document.getElementById("navMenu").style.marginRight = "0px";
+        }
+
+        document.getElementById("navLink1").onclick = function () {
+            document.getElementById("navMenu").style.marginRight = "0px";
+        }
+
+        
+        document.getElementById("navLink2").onclick = function () {
+            document.getElementById("navMenu").style.marginRight = "0px";
+        }
+
+        
+        document.getElementById("navLink3").onclick = function () {
+            document.getElementById("navMenu").style.marginRight = "0px";
+        }
+    </script>
+</body>
+
+</html>
